@@ -12,8 +12,8 @@ It'll adapt min and max values to match GuessMachine answers.
 from guess_my_number import MIN, MAX, GuessMachine
 
 if __name__ == '__main__':
-    min = MIN
     max = MAX
+    min = MIN
     guess_nachine = GuessMachine()
     while True:
         attempt = int((min + max)/2)
